@@ -1,4 +1,13 @@
 # Readme for account-switch-aws repo
+
+# Instructions 
+1. git clone this repo in your ~/.aws directory
+2. change the settings in the customer sub-directories cust1, cust2 etc
+3. use the set-acct.sh to set the desired customer related config 
+to be used by AWS CLI , python , Terraform etc.
+
+
+# Background 
 If you are working with different AWS customers or accounts on commandline its often a good idea
 to have to be able to store the account specific profiles in subdirectories under ~/.aws directory like this : 
 
