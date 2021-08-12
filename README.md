@@ -1,4 +1,4 @@
-# Readme for account-switch-aws repo
+# Switching between different accounts for AWS CLI, Terraform, etc
 
 # Instructions 
 1. git clone this repo in your ~/.aws directory
